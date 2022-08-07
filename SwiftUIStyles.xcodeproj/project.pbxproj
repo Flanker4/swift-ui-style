@@ -13,6 +13,8 @@
 		A0236333289DB1DE00D2310A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0236321289DB1DB00D2310A /* ContentView.swift */; };
 		A0236334289DB1DE00D2310A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0236322289DB1DE00D2310A /* Assets.xcassets */; };
 		A0236335289DB1DE00D2310A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0236322289DB1DE00D2310A /* Assets.xcassets */; };
+		A023633F289DB20700D2310A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023633E289DB20700D2310A /* Styles.swift */; };
+		A0236340289DB20700D2310A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023633E289DB20700D2310A /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		A0236327289DB1DE00D2310A /* SwiftUIStyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A023632D289DB1DE00D2310A /* SwiftUIStyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A023632F289DB1DE00D2310A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A023633E289DB20700D2310A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				A0236320289DB1DB00D2310A /* SwiftUIStylesApp.swift */,
 				A0236321289DB1DB00D2310A /* ContentView.swift */,
+				A023633E289DB20700D2310A /* Styles.swift */,
 				A0236322289DB1DE00D2310A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A023633F289DB20700D2310A /* Styles.swift in Sources */,
 				A0236332289DB1DE00D2310A /* ContentView.swift in Sources */,
 				A0236330289DB1DE00D2310A /* SwiftUIStylesApp.swift in Sources */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0236340289DB20700D2310A /* Styles.swift in Sources */,
 				A0236333289DB1DE00D2310A /* ContentView.swift in Sources */,
 				A0236331289DB1DE00D2310A /* SwiftUIStylesApp.swift in Sources */,
 			);
